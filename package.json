@@ -1,0 +1,31 @@
+{
+   "name": "codenation-challenge",
+   "version": "1.0.0",
+   "main": "index.js",
+   "repository": "https://github.com/freirenaruto/codenation-challenge.git",
+   "author": "Jonatas Freire <jonatasf1997@hotmail.com>",
+   "license": "MIT",
+   "scripts": {
+      "dev": "nodemon src/server.js",
+      "queue": "nodemon src/queue.js",
+      "dev:debug": "nodemon --inspect src/server.js"
+   },
+   "dependencies": {
+      "axios": "^0.19.2",
+      "express": "^4.17.1",
+      "form-data": "^3.0.0",
+      "multer": "^1.4.2",
+      "sha1": "^1.1.1"
+   },
+   "devDependencies": {
+      "eslint": "^6.8.0",
+      "eslint-config-airbnb-base": "^14.1.0",
+      "eslint-config-prettier": "^6.10.0",
+      "eslint-plugin-import": "^2.20.1",
+      "eslint-plugin-import-helpers": "^1.0.2",
+      "eslint-plugin-prettier": "^3.1.2",
+      "nodemon": "^2.0.2",
+      "prettier": "^1.19.1",
+      "sucrase": "^3.12.1"
+   }
+}
