@@ -4,7 +4,7 @@ export default function decode(house, code) {
    const lowerCode = code.toLowerCase().split('');
 
    const indexCode = lowerCode.map(letter => {
-      return alfabeto.findIndex(lf => letter === lf);
+      return alfabeto.indexOf(letter, 25);
    });
 
    const decoded = indexCode.map((numb, index) => {
